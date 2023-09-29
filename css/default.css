@@ -1,0 +1,12 @@
+:root {
+    --dark-tone-zero: hsl(220, 40%, 5%); /* Fundo da pagina */
+    --dark-tone-one: hsl(220, 40%, 15%); /* Fundo dos conteineres */
+    --dark-tone-two: hsl(220, 40%, 30%); /* Borda dos conteineres */
+    --dark-tone-three: hsl(220, 100%, 50%); /* Destaque de elementos */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
