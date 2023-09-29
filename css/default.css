@@ -1,12 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
 :root {
-    --dark-tone-zero: hsl(220, 40%, 5%); /* Fundo da pagina */
-    --dark-tone-one: hsl(220, 40%, 15%); /* Fundo dos conteineres */
-    --dark-tone-two: hsl(220, 40%, 30%); /* Borda dos conteineres */
-    --dark-tone-three: hsl(220, 100%, 50%); /* Destaque de elementos */
+    /* Tema escuro */
+    --dark-background: hsl(220, 40%, 5%); /* Fundo da pagina */
+    --dark-container: hsl(220, 25%, 15%); /* Fundo dos conteineres */
+    --dark-border: hsl(220, 20%, 45%); /* Borda dos conteineres */
+    --dark-text: hsl(220, 25%, 75%); /* Texto simples */
+    --dark-title: #ffffff;
+
+    /* Tema claro*/
+    --light-background: hsl(0, 0%, 100%);
+    --light-container: hsl(0, 0%, 100%);
+    --light-border: hsl(0, 0%, 70%);
+    --light-text: hsl(0, 0%, 50%);
+    --light-title: #000000;
+
+    --theme: hsl(220, 100%, 60%); /* Tema para destaque de elementos */
+}
+
+h1 {
+    font-weight: 500;
 }
 
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+ion-icon {
+    color: var(--theme)
 }

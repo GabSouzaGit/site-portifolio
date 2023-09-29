@@ -1,20 +1,4 @@
 body {
-    background: var(--dark-tone-zero);
+    background: var(--dark-background);
 }
 
-div {
-    height: 100px;
-    width: 100px;
-}
-
-#one {
-    background: var(--dark-tone-one);
-}
-
-#two {
-    background: var(--dark-tone-two);
-}
-
-#three {
-    background: var(--dark-tone-three);
-}
