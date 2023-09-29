@@ -23,7 +23,7 @@
     --theme: hsl(220, 100%, 60%); /* Tema para destaque de elementos */
 }
 
-h1 {
+.title {
     font-weight: 500;
 }
 
@@ -31,8 +31,4 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-ion-icon {
-    color: var(--theme)
 }
