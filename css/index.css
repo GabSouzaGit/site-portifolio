@@ -2,3 +2,54 @@ body {
     background: var(--dark-background);
 }
 
+nav {
+    background: var(--dark-container);
+    height: 100%;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    border-right: 1px solid var(--dark-border);
+}
+
+#all {
+    display: flex;
+    height: 100vh;
+}
+
+#content {
+    padding: 12px;
+}
+
+#profile {
+    height: 300px;
+    border: none;
+    border-radius: 8px;
+}
+
+.topic {
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+}
+
+.topic div {
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.topic div:hover {
+    color: #ffffff;
+}
+
+nav ion-icon {
+    margin: 12px;
+    color: var(--theme)
+}
+
+@media (max-width: 850px){
+    nav {
+        display: none;
+    }
+}

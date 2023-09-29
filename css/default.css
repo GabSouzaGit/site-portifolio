@@ -3,32 +3,34 @@
 * {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
+    color: var(--dark-text);
 }
 
 :root {
     /* Tema escuro */
-    --dark-background: hsl(220, 40%, 5%); /* Fundo da pagina */
-    --dark-container: hsl(220, 25%, 15%); /* Fundo dos conteineres */
+    --dark-background: hsl(220, 40%, 6%); /* Fundo da pagina */
+    --dark-container: hsl(220, 25%, 5%); /* Fundo dos conteineres */
     --dark-border: hsl(220, 20%, 45%); /* Borda dos conteineres */
     --dark-text: hsl(220, 25%, 75%); /* Texto simples */
     --dark-title: #ffffff;
-
-    /* Tema claro*/
-    --light-background: hsl(0, 0%, 100%);
-    --light-container: hsl(0, 0%, 100%);
-    --light-border: hsl(0, 0%, 70%);
-    --light-text: hsl(0, 0%, 50%);
-    --light-title: #000000;
-
     --theme: hsl(220, 100%, 60%); /* Tema para destaque de elementos */
 }
 
-.title {
+h1, h2 {
     font-weight: 500;
+    color: var(--dark-title);
+}
+
+body, html{
+    margin: 0;
+    padding: 0;
 }
 
 body {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
+    min-height: 100vh;
+}
+
+.title {
+    font-size: 27px;
 }
