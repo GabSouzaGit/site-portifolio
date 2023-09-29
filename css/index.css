@@ -23,9 +23,21 @@ nav {
 }
 
 #profile {
+    display: flex;
+    align-items: center;
+}
+
+#profile-img {
     height: 300px;
     border: none;
     border-radius: 8px;
+}
+
+#profile-info {
+    margin: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .topic {
