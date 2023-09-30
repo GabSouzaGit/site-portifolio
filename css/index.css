@@ -20,11 +20,15 @@ nav {
 
 #content {
     padding: 12px;
+    overflow-y: scroll;
+    flex: 2;
 }
 
 #profile {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 #profile-img {
@@ -34,10 +38,20 @@ nav {
 }
 
 #profile-info {
-    margin: 8px;
+    margin: 24px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    max-width: 450px;
+    line-height: 25px;
+}
+
+#cards {
+    margin: 12px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .topic {

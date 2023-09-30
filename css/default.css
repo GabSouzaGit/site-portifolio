@@ -34,3 +34,12 @@ body {
 .title {
     font-size: 27px;
 }
+
+.card {
+    height: 300px;
+    width: 250px;
+    background: var(--dark-container);
+    border: 1px solid var(--dark-border);
+    border-radius: 8px;
+    margin: 8px;
+}

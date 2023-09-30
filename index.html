@@ -54,18 +54,32 @@
             </div>
         </nav>
         <div id="content">
-            <div id="profile">
-                <img src="./assets/profile.jpeg" alt="Foto dev" id="profile-img"/>
-                <div id="profile-info">
-                    <h1> Gabriel Souza </h1>
-                    <div>
-                        Olá! 
+            <div id="about-me">
+                <div id="profile">
+                    <img src="./assets/profile.jpeg" alt="Foto dev" id="profile-img"/>
+                    <div id="profile-info">
+                        <h1> Sobre mim </h1>
+                        <div>
+                            Fala ai! Meu nome é Gabriel e tenho <span id="dinamic-age"></span> anos.
+                            Desde sempre gostei muito de estudar assuntos interessantes, dentre eles a tecnologia, incluindo a programação.
+                            Por isso, cursei Desenvolvimento de Sistemas na ETEC por 3 anos. Hoje foco meus estudos e conhecimentos para a area de desenvolvimento web, tanto para o front-end como para o back-end.
+                        </div>
                     </div>
+                </div>
+                <div id="cards">
+                    <div class="card"></div>
+                    <div class="card"></div>
+                    <div class="card"></div>
                 </div>
             </div>
         </div>
     </div>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script>
+        const date = new Date();
+        const dinamicAge = document.querySelector('#dinamic-age');
+        dinamicAge.textContent = date.getFullYear() - 2005;
+    </script>
 </body>
 </html>
