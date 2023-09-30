@@ -40,13 +40,11 @@ b {
     font-size: 27px;
 }
 
-
 .section {
     background: var(--dark-container);
     border: 1px solid var(--dark-border);
     border-radius: 8px;
     margin: 8px;
-    width: 90%;
     padding-bottom: 20px;
 }
 
@@ -69,29 +67,54 @@ b {
     width: 100%;
 }
 
+.vertical-section {
+    height: 500px;
+    width: 100%;
+    max-width: 250px;
+}
+
+.horizontal-section {
+    width: 90%;
+}
+
 .levels {
     display: flex;
     align-items: center;
+    margin: 12px;
 }
 
 .levels div {
-    width: 40px;
-    height: 1px;
-    padding: 0;
+    width: 15px;
+    height: 5px;
     border: none;
     border-radius: 8px;
     margin: 0 2px;
     background: gray;
 }
 
+.describing-levels {
+    display: flex;
+    align-items: center;
+}
+
+.describing-levels #title {
+    display: flex;
+    align-items: center;
+}
+
+.describing-levels #title ion-icon {
+    margin: 5px;
+}
+
 .basic div:nth-child(1){
-    background: var(--theme);
+    background: #ffffff;
 }
 
 .medium div:nth-child(-n+2){
-    background: var(--theme);
+    background: #ffffff;
 }
 
 .advanced div:nth-child(1n){
-    background: var(--theme);
+    background: #ffffff;
 }
+
