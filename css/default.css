@@ -46,6 +46,11 @@ b {
     border-radius: 8px;
     margin: 8px;
     padding-bottom: 20px;
+    transition: all 0.5s;
+}
+
+.section:hover {
+    transform: translateY(-3px);
 }
 
 .section #section-header {
@@ -116,5 +121,10 @@ b {
 
 .advanced div:nth-child(1n){
     background: #ffffff;
+}
+
+.line {
+    width: 100%;
+    border-top: 2px dashed var(--dark-border);
 }
 
