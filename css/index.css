@@ -18,8 +18,18 @@ nav {
     height: 100vh;
 }
 
+#content div {
+    padding: 5px 0;
+}
+
+#about-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-height: 100vh;
+}
+
 #content {
-    padding: 12px;
     overflow-y: scroll;
     flex: 2;
 }
@@ -46,14 +56,6 @@ nav {
     line-height: 25px;
 }
 
-#cards {
-    margin: 12px 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
 .topic {
     display: flex;
     align-items: center;
@@ -69,10 +71,22 @@ nav {
     color: #ffffff;
 }
 
+#skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#skills-data {
+    width: 90%;
+}
+
 nav ion-icon {
     margin: 12px;
     color: var(--theme)
 }
+
 
 @media (max-width: 850px){
     nav {

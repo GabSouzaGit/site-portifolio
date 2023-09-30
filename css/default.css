@@ -31,15 +31,67 @@ body {
     min-height: 100vh;
 }
 
+b {
+    font-weight: 500;
+    color: #ffffff;
+}
+
 .title {
     font-size: 27px;
 }
 
-.card {
-    height: 300px;
-    width: 250px;
+
+.section {
     background: var(--dark-container);
     border: 1px solid var(--dark-border);
     border-radius: 8px;
     margin: 8px;
+    width: 90%;
+    padding-bottom: 20px;
+}
+
+.section #section-header {
+    border-bottom: 1px solid var(--dark-border);
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+}
+
+.section #section-content {
+    padding: 10px;
+}
+
+.sections {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.levels {
+    display: flex;
+    align-items: center;
+}
+
+.levels div {
+    width: 40px;
+    height: 1px;
+    padding: 0;
+    border: none;
+    border-radius: 8px;
+    margin: 0 2px;
+    background: gray;
+}
+
+.basic div:nth-child(1){
+    background: var(--theme);
+}
+
+.medium div:nth-child(-n+2){
+    background: var(--theme);
+}
+
+.advanced div:nth-child(1n){
+    background: var(--theme);
 }
