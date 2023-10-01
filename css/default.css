@@ -12,11 +12,28 @@
     --dark-container: hsl(220, 25%, 5%); /* Fundo dos conteineres */
     --dark-border: hsl(220, 20%, 45%); /* Borda dos conteineres */
     --dark-text: hsl(220, 25%, 75%); /* Texto simples */
-    --dark-title: #ffffff;
+    --dark-title: #ffffff; /* Titulo grandes */
     --theme: hsl(220, 100%, 60%); /* Tema para destaque de elementos */
 }
 
-h1, h2 {
+h1 {
+    display: flex;
+    align-items: center;
+    margin: 16px 0; 
+}
+
+h1 div {
+    font-weight: 500;
+    color: var(--dark-title);
+}
+
+h1 ion-icon {
+    margin-right: 18px;
+    color: var(--dark-title);
+    filter: drop-shadow(0px 0px 4px hsl(210, 100%, 50%))
+}
+
+h2 {
     font-weight: 500;
     color: var(--dark-title);
 }

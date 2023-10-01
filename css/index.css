@@ -42,6 +42,7 @@ nav {
     height: 300px;
     border: none;
     border-radius: 8px;
+    filter:drop-shadow()
 }
 
 #profile-info {
