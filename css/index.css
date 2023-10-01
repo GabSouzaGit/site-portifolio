@@ -92,6 +92,19 @@ nav ion-icon {
     color: var(--theme)
 }
 
+#toeic-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#toeic {
+    width: 60%;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 12px
+}
+
 /* Niveis de habilidade */
 .html div:nth-child(1n){
     background: hsl(15, 100%, 60%);
