@@ -68,14 +68,14 @@ nav {
     color: #ffffff;
 }
 
-#skills, #soft-skills {
+#skills, #soft-skills, #education, #projects, #tcc, #contact {
     display: flex;
     flex-direction: column;
     align-items: center;
     min-height: 100vh;
 }
 
-#skills-data, #soft-skills-data {
+#skills-data, #soft-skills-data, #education-data, #projects-data, #tcc-data, #contact-data {
     width: 90%;
 }
 
@@ -84,10 +84,6 @@ nav {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-}
-
-.soft-skill {
-    margin: 30px 0;
 }
 
 nav ion-icon {
@@ -100,7 +96,7 @@ nav ion-icon {
     background: hsl(15, 100%, 60%);
 }
 
-.css div:nth-child(-n + 2){
+.css div:nth-child(1n){
     background: hsl(280, 100%, 60%);
 }
 
@@ -108,7 +104,7 @@ nav ion-icon {
     background: hsl(50, 100%, 60%);
 }
 
-.react div:nth-child(1){
+.react div:nth-child(-n + 2){
     background: hsl(190, 100%, 60%);
 }
 
@@ -120,11 +116,11 @@ nav ion-icon {
     background: hsl(230, 100%, 60%);
 }
 
-.sql div:nth-child(-n + 2){
+.sql div:nth-child(1){
     background: hsl(0, 60%, 50%);
 }
 
-.node div:nth-child(1){
+.node div:nth-child(-n + 2){
     background: hsl(90, 100%, 50%);
 }
 
@@ -136,11 +132,7 @@ nav ion-icon {
     background: hsl(330, 100%, 60%);
 }
 
-.figma div:nth-child(1){
-    background: hsl(280, 100%, 60%);
-}
-
-.figma div:nth-child(2){
+.figma div:nth-child(-n + 2){
     background: hsl(120, 60%, 60%);
 }
 
