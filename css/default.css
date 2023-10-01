@@ -141,7 +141,6 @@ b {
 
 .line {
     width: 100%;
-    max-width: 90%;
     border-top: 2px dashed var(--dark-border);
     margin: 24px 0;
 }
